@@ -3,7 +3,7 @@ from collections import defaultdict
 import os 
 
 
-src = r"C:\Users\aacas\OneDrive\Desktop\Aacash\Github Files\TCT Analysis\SampleTextFiles"
+src = r"SampleTextFiles"
 
 # to map each character its huffman value
 codes = {}

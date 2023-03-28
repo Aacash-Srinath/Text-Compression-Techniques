@@ -1,0 +1,7 @@
+Time dilation is a phenomenon in physics and relativity that describes how time passes differently for different observers. It depends on their relative motion or their position in a gravitational field.
+
+According to the theory of special relativity, time dilation occurs when two observers are moving relative to each other. The faster they move, the more their clocks appear to slow down. This is because the distance between events in space and time changes depending on the observer's frame of reference. The factor by which time slows down is called the Lorentz factor and it is given by the equation: Square root of√(1 − v2/c2), where v is the relative velocity and c is the speed of light.
+
+According to the theory of general relativity, time dilation also occurs when two observers are at different gravitational potentials. The closer an observer is to a massive body, such as a planet or a star, the more their clock appears to run slower. This is because gravity curves space and time around the massive body. The factor by which time slows down is given by the equation: Square root of√(1 − 2GM/rc2), where G is the gravitational constant, M is the mass of the body, r is the distance from the center of the body, and c is the speed of light.
+
+Time dilation has been confirmed by many experiments, such as measuring the lifetime of fast-moving particles or comparing atomic clocks on Earth and in space. Time dilation has important implications for physics, astronomy, cosmology, and technology.
