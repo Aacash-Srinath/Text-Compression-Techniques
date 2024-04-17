@@ -2,8 +2,7 @@ import heapq
 from collections import defaultdict
 import os 
 
-
-src = r"C:\Users\aacas\OneDrive\Desktop\Aacash\Github Files\TCT Analysis\SampleTextFiles"
+src = r"SampleTextFiles"
 
 # to map each character its huffman value
 codes = {}
@@ -82,7 +81,7 @@ def decode_file(root, s):
 		if curr.left is None and curr.right is None:
 			ans += curr.data
 			curr = root
-	return ans + '\0'
+	return ans + '/0'
 
 
 def write_file(encodedString):
@@ -94,7 +93,7 @@ def write_file(encodedString):
 
 	k2 = bytes(hexCode)
 	
-	with open(src+r"\outout.txt", "wb") as key:
+	with open(src+r"/outout.txt", "wb") as key:
 		key.write(k2)
 
 def save_code(codes):
@@ -138,14 +137,14 @@ def save_code(codes):
 		i+=1
 
 	
-	with open(src+r"\tre.txt", "w") as key:
+	with open(src+r"/tre.txt", "w") as key:
 		key.write(tre)
 
 
 	# Driver code
 if __name__ == "__main__":
 	minHeap = []
-	with open(src+r"\TwoHundredWords\one.txt", "r") as inputFile:
+	with open(src+r"/words200/file1.txt", "r") as inputFile:
 		str = inputFile.read()
 		
 	# print(str)
@@ -159,16 +158,16 @@ if __name__ == "__main__":
 
 	write_file('1'+encodedString)
 
-	input_file_size = os.path.getsize(src+r"\TwoHundredWords\one.txt")
+	input_file_size = os.path.getsize(src+r"/words200/file1.txt")
 	print("Input file size is: ", input_file_size, "bytes")
-	output_file_size = os.path.getsize((src+r"\outout.txt"))
+	output_file_size = os.path.getsize((src+r"/outout.txt"))
 	# print("Output file size is: ", output_file_size, "bytes")
-	tree_file_size = os.path.getsize((src+r"\tre.txt"))
+	tree_file_size = os.path.getsize((src+r"/tre.txt"))
 	# print("tree file size is: ", tree_file_size, "bytes")
 	print("Total Output file size is: ", output_file_size+tree_file_size, "bytes")
 
 	# Function call
 	# huffCode = read_file()
 	# decodedString = decode_file(minHeap[0], huffCode)
-	# print("\nDecoded Huffman Data:")
+	# print("/nDecoded Huffman Data:")
 	# print(decodedString)

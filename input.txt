@@ -1,0 +1,1 @@
+A pangram is a unique sentence in which every letter of the alphabet is used at least once. The name comes from the Greek root words pan, meaning all, and gram, meaning something written or recorded. Like any good sentence, good examples of pangrams should contain a subject and a predicate, but the real purpose of a pangram goes beyond its meaning alone.
